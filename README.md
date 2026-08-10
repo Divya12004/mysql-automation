@@ -128,27 +128,7 @@ MYSQL_SERVICE=mysql
 
 ```bash
 sudo python3 install_mysql.py
-```
-
-## ⚙️ Environment Variables
-
-The `.env` file contains configuration values used by the Python script.
-
-```env
-MYSQL_PACKAGE=mysql-server
-MYSQL_SERVICE=mysql
-```
-
-The `.env` file should **not be pushed to GitHub** if it contains secrets or environment-specific configuration.
-
-The `.gitignore` file contains:
-
-```text
-.env
-venv/
-__pycache__/
-*.pyc
-```
+``
 
 ## 🔍 Verify MySQL
 
