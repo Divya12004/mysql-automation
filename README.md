@@ -58,5 +58,4 @@ mysql --version
 sudo systemctl status mysql
 ```
 
->>>>>>> Add README documentation
 
